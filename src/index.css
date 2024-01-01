@@ -14,3 +14,14 @@
 background: radial-gradient(76.16% 76.16% at 31.97% 19.67%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 69.79%, rgba(255, 255, 255, 0.00) 100%), #00A7E1;
 box-shadow: 4px 38px 62px 0px rgba(0, 0, 0, 0.10);
 }
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
