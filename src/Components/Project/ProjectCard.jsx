@@ -2,9 +2,8 @@ import projectimg1 from '../../Images/projectimg1.png'
 import projectimg2 from '../../Images/projectimg2.png'
 import projectimg3 from '../../Images/projectimg3.png'
 import projectimg4 from '../../Images/projectimg4.png'
-// import projectimg1 from '../../Images/projectimg1.png'
 import ProjectViewIcon from '../Icon/ProjectViewicon';
-import ProjectstudyIcon from '../Icon/projectstudyicon';
+import ProjectstudyIcon from '../Icon/Projectstudyicon';
 function ProjectCard() {
     const projectsData = [
         {
