@@ -101,9 +101,9 @@ const Blogcarde = () => {
               key={blogItem.id}
               className="w-full  bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700"
             >
-              <div className="">
+              <div className=" w-full">
                 <img
-                  className="  w-full rounded-xl mx-auto lg:mt-2"
+                  className="  w-full rounded-xl mx-auto"
                   src={blogItem.image}
                   alt={`Blog ${blogItem.id}`}
                 />
